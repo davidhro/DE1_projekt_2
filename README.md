@@ -23,6 +23,9 @@ Cílem projektu je vytvoření vysílače, který odesílá data ve formátu 7O1
 
 ## Hardware description
 ![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/hardware/nexys-a7-callout.png)
+
+
+
 Write your text here.
 
 <a name="modules"></a>
