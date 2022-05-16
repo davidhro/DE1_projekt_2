@@ -17,7 +17,7 @@
 
 ## Project objectives
 
-Write your text here.
+Cílem projektu je vytvoření vysílače, který odesílá data ve formátu 7O1 (7 datových bitů, lichá parita,1 stop bit) s rychlostí 4800 Baud pomocí rozrhraní UART. Nastavení datového slova bude probíhat pomocí přepínačů. 
 
 <a name="hardware"></a>
 
