@@ -26,7 +26,9 @@ Cílem projektu je vytvoření vysílače, který odesílá data ve formátu 7O1
 
 
 
-Write your text here.
+Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat probíhá pomocí sdíleného UART/JTAG USB rozhraní (25). 
+
+
 
 <a name="modules"></a>
 
