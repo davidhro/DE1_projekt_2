@@ -1,4 +1,4 @@
-# UART transmitter
+# UART vysílač
 
 ### Team members
 
