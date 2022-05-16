@@ -53,4 +53,4 @@ Write your text here
 ## References
 
 1. https://github.com/tomas-fryza/digital-electronics-1
-2. 
+2. https://www.nandland.com/articles/what-is-a-uart-rs232-serial.html
