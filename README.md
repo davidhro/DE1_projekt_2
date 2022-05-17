@@ -54,7 +54,10 @@ Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného
 
 ## TOP module description and simulations
 
-Write your text here.
+![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/top.png)
+
+
+Schéma TOP modulu vykresleno pomocí programu Vivado.
 
 <a name="video"></a>
 
