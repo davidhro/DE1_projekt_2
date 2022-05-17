@@ -35,7 +35,7 @@ Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat pro
 ## VHDL modules description and simulations
 
 ### parity_generator
-Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. 
+Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. Pracuje v režimu liché parity, tedy generuje hodnotu 1 pokud je v datovém slově obsažen sudý počet bitů s hodnotou 1 a hodnotu 0 pokud je v datovém slově obsažen lichý počet bitů s hodnotou 1. 
 
 ### clock_enable
 Modul upravuje rychlost hodinového signálu
