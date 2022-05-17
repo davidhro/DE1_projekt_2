@@ -42,7 +42,7 @@ Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného
 
 
 
-### Simulace modulů parity generator a UART_TX
+### Simulace modulů parity_generator a UART_TX
 ![your figure]()
 <a name="top"></a>
 
