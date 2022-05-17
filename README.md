@@ -25,7 +25,7 @@ Cílem projektu je vytvoření vysílače, který odesílá data ve formátu 7O1
 ![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/nexys-a7-callout.png)
 
 
-
+Pro projekt byla použita deska Nexys A7-50T od výrobce Digilent.
 Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat probíhá pomocí sdíleného UART/JTAG USB rozhraní (25). 
 
 
@@ -37,11 +37,11 @@ Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat pro
 ### parity_generator
 Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. 
 
-### cnt_up
-Modul zajišťuje požadovanou rychlost přenosu dat a pomáhá s postupným odesíláním dat na výstup.
-
 ### clock_enable
 Modul upravuje rychlost hodinového signálu
+
+### cnt_up
+Modul zajišťuje požadovanou rychlost přenosu dat (spolu s modulem clock_enable) a pomáhá s postupným odesíláním dat na výstup.
 
 ### UART_TX
 Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup. Seřazení datových bitů probíhá LSB->MSB, po nich následují paritní bit a stop bit. 
