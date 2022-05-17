@@ -62,5 +62,5 @@ Write your text here
 
 1. https://github.com/tomas-fryza/digital-electronics-1
 2. https://www.nandland.com/articles/what-is-a-uart-rs232-serial.html
-3. https://cs.wikipedia.org/wiki/Paritn%C3%AD_bit
+3. https://forum.digikey.com/t/parity-generator-vhdl/12591
 
