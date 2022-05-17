@@ -72,4 +72,5 @@ Write your text here
 1. https://github.com/tomas-fryza/digital-electronics-1
 2. https://www.nandland.com/articles/what-is-a-uart-rs232-serial.html
 3. https://forum.digikey.com/t/parity-generator-vhdl/12591
+4. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 
