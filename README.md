@@ -34,7 +34,11 @@ Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat pro
 
 ## VHDL modules description and simulations
 
-Write your text here.
+### parity_generator
+Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. 
+
+### UART_TX
+Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup.
 
 <a name="top"></a>
 
