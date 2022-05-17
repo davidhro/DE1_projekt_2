@@ -36,8 +36,13 @@ Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat pro
 
 ### parity_generator
 Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. 
+
 ### cnt_up
 Modul zajišťuje požadovanou rychlost přenosu dat a pomáhá s postupným odesíláním dat na výstup.
+
+### clock_enable
+Modul upravuje rychlost hodinového signálu
+
 ### UART_TX
 Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup. Seřazení datových bitů probíhá LSB->MSB, po nich následují paritní bit a stop bit. 
 
