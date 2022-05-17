@@ -40,6 +40,10 @@ Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritn�
 ### UART_TX
 Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup. Seřazení datových bitů probíhá LSB->MSB. Modul také zajišťuje požadovanou rychlost přenosu dat.
 
+
+
+### Simulace modulů parity generator a UART_TX
+![your figure]()
 <a name="top"></a>
 
 ## TOP module description and simulations
