@@ -38,7 +38,7 @@ Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat pro
 Modul provádí operaci XOR se všemi vstupními bity, jeho výstupem je paritní bit. 
 
 ### UART_TX
-Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup. Seřazení datových bitů probíhá LSB->MSB. Modul také zajišťuje požadovanou rychlost přenosu dat.
+Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a odesílá je na výstup. Seřazení datových bitů probíhá LSB->MSB, po nich n8sleduj9 paritní bit a stop bit. Modul také zajišťuje požadovanou rychlost přenosu dat.
 
 
 
