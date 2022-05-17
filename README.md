@@ -48,8 +48,8 @@ Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného
 
 
 
-### Simulace všech modulů 
-![your figure]()
+### Simulace všech modulů (vybrané signály)
+![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/UART_TX_waveforms.png)
 <a name="top"></a>
 
 ## TOP module description and simulations
