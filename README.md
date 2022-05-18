@@ -49,12 +49,12 @@ Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného
 
 
 ### Simulace všech modulů (vybrané signály)
-![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/UART_TX_waveforms.png)
+![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/pictures/UART_TX_waveforms.png)
 <a name="top"></a>
 
 ## TOP module description and simulations
 
-![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/top.png)
+![your figure](https://github.com/davidhro/DE1_projekt_2/blob/main/pictures/pictures/top.png)
 
 
 Schéma TOP modulu vykresleno pomocí programu Vivado.
