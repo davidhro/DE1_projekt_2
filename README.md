@@ -44,7 +44,7 @@ Modul upravuje rychlost hodinového signálu
 Modul zajišťuje požadovanou rychlost přenosu dat (spolu s modulem clock_enable) a pomáhá s postupným odesíláním dat na výstup.
 
 ### UART_TX
-Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a postupně je odesílá na výstup. Seřazení datových bitů probíhá LSB->MSB, po nich následují paritní bit a stop bit. 
+Modul seřazuje bity (7 datových, jeden paritní a jeden stop bit) do zadaného formátu a postupně je odesílá na výstup. Slovo začíná start bitem. Seřazení datových bitů probíhá LSB->MSB, po nich následují paritní bit a stop bit. 
 
 
 
