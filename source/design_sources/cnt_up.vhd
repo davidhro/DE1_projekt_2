@@ -56,7 +56,7 @@ begin
                
                 if (cnt_up_i = '1') then
                 
-                  if s_cnt_local < 8 then
+                  if s_cnt_local < 9 then
                   s_cnt_local <= s_cnt_local + 1;
                   else 
                   s_cnt_local <= (others => '0');
