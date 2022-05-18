@@ -25,10 +25,8 @@ architecture Behavioral of UART_TX is
     -- parity bit
     signal parity_bit  : std_logic;
     --data
-    signal  data : std_logic_vector(8 downto 0);
-    
-   -- signal clk_count : integer range 0 to 20833 := 0; --index pro scitani clk signalu pro rychlost 4800 Bd
-   
+    signal  data : std_logic_vector(9 downto 0);
+      
     signal s_cnt : std_logic_vector(3 downto 0);
     
     signal s_en  : std_logic;
@@ -72,20 +70,21 @@ begin
             if (reset = '1') then                 
                         
                  UART_o  <= '0'; 
-                 data <= "000000000";
+                 data <= "0000000000";
          
          
-           else             
-                 data(0)  <= data_i(0); -- first bit of input data 
-                 data(1)  <= data_i(1);
-                 data(2)  <= data_i(2);
-                 data(3)  <= data_i(3);
-                 data(4)  <= data_i(4); 
-                 data(5)  <= data_i(5);
-                 data(6)  <= data_i(6);-- last bit of input data 
-                 data(7)  <= parity_bit;-- parity bit 
-                 data(8)  <= '1';-- stop bit
-                 
+           else  
+                      
+                 data(0)  <= '0';       -- start bit
+                 data(1)  <= data_i(0); -- first bit of input data
+                 data(2)  <= data_i(1);
+                 data(3)  <= data_i(2);
+                 data(4)  <= data_i(3);
+                 data(5)  <= data_i(4); 
+                 data(6)  <= data_i(5);
+                 data(7)  <= data_i(6); -- last bit of input data 
+                 data(8)  <= parity_bit;-- parity bit 
+                 data(9)  <= '1';       -- stop bit
         case s_cnt is
             	when "0000" =>
                 	UART_o <= data(0);
@@ -105,8 +104,10 @@ begin
                 	UART_o <= data(7);
                 when "1000" =>
                 	UART_o <= data(8);
+                when "1001" =>
+                	UART_o <= data(9);
                 when others =>
-                	UART_o <= data(8);
+                	UART_o <= data(9);
           
         	end case;
          
