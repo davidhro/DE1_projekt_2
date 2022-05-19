@@ -63,7 +63,9 @@ Schéma TOP modulu vykresleno pomocí programu Vivado.
 
 ## Video
 
-Write your text here
+Oprava chyb z videa:
+2:30 - 4,8 bit/ms
+
 
 <a name="references"></a>
 
