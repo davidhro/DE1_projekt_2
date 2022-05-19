@@ -26,7 +26,7 @@ Cílem projektu je vytvoření vysílače, který odesílá data ve formátu 7O1
 
 
 Pro projekt byla použita deska Nexys A7-50T od výrobce Digilent.
-Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat probíhá pomocí sdíleného UART/JTAG USB rozhraní (25). Pro reset je použito jedno z tlačítek (13). Jako hodinový signál slouží interní krystalový oscilátor o kmitočtu 100 MHz.
+Nastavení datového slova probíhá pomocí přepínačů (18). Výstup dat probíhá pomocí jednoho z Pmod portů (14). Pro reset je použito jedno z tlačítek (13). Jako hodinový signál slouží interní krystalový oscilátor o kmitočtu 100 MHz.
 
 
 
