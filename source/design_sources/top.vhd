@@ -7,7 +7,7 @@ entity top is
            SW : in STD_LOGIC_VECTOR (6 downto 0);                 
            BTNC : in STD_LOGIC;
            
-           UART_RXD_OUT : out STD_LOGIC
+           JB : out STD_LOGIC
            
            );
            
@@ -34,7 +34,7 @@ begin
           data_i(6) => SW(6),
           
 
-          UART_o => UART_RXD_OUT
+          UART_o => JB
       );
 
 
