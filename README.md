@@ -64,6 +64,7 @@ Schéma TOP modulu vykresleno pomocí programu Vivado.
 ## Video
 
 Oprava chyb z videa:
+0:25 - jde o switche označené 0 - 6
 2:30 - 4,8 bit/ms
 
 
