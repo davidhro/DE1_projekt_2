@@ -62,7 +62,7 @@ Schéma TOP modulu vykresleno pomocí programu Vivado.
 <a name="video"></a>
 
 ## Video
-(odkaz na video bude nahrán brzy)
+https://drive.google.com/file/d/1chixEXzvv9apnasI0aJwnty4dbokSeHA/view?usp=sharing
 
 Oprava chyb z videa:
 
